@@ -11,8 +11,8 @@ repositories {
         name = 'git-hub-packages-beef'
         url = 'https://maven.pkg.github.com/jelly-ware/beef'
         credentials {
-            username = System.getenv('GITHUB_USR')
-            password = System.getenv('GITHUB_PWD')
+            username = System.getenv('GHP_USR')
+            password = System.getenv('GHP_PWD')
         }
     }
 }
@@ -65,8 +65,8 @@ publishing {
             name = 'GitHubPackages'
             url = 'https://maven.pkg.github.com/jelly-ware/toolkit'
             credentials {
-                username = System.getenv('GITHUB_USR')
-                password = System.getenv('GITHUB_PWD')
+                username = System.getenv('GHP_USR')
+                password = System.getenv('GHP_PWD')
             }
         }
     }

@@ -29,5 +29,5 @@ jobs:
     - name: Publish to GitHub Packages
       run: gradle publish
       env:
-        GITHUB_USR: ${{ github.actor }}
-        GITHUB_PWD: ${{ secrets.GITHUB_TOKEN }}
+        GHP_USR: ${{ github.actor }}
+        GHP_PWD: ${{ secrets.GITHUB_TOKEN }}
