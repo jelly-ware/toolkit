@@ -1,5 +1,5 @@
 # ignore system files
-# **/.*
+**/.*
 # ignore everything in the root
 /*
 # un-ignore files in root
