@@ -37,7 +37,7 @@ dependencies {
 
     api 'org.javatuples:javatuples:1.2'
 
-    implementation 'org.jellyware.beef:beef:1.0.1'
+    implementation 'org.jellyware.beef:beef:1.0.0-alpha'
 }
 
 test {
